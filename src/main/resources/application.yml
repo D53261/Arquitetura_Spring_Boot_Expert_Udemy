@@ -1,0 +1,18 @@
+# Para saber quais as propriedades estão disponíveis, consulte:
+# https://docs.spring.io/spring-boot/appendix/application-properties/index.html
+
+spring:
+  aplication:
+    name: Arquitetura Spring Boot
+  jpa:
+    show-sql: true
+  main:
+    lazy-initialization: false
+
+app:
+  montadora:
+    motor-padrao: 130
+  config:
+    variavel: X
+    valor1: 60
+    valor2: 80
